@@ -1,0 +1,14 @@
+name: 'python-dist-upload'
+description: ''
+inputs:
+  project_dir:
+    description: 'dir containing setup.py (relative to repo root)'
+    required: false
+    default: '.'
+  setup_command:
+    description: 'setup.py command(s)'
+    required: false
+    default: 'sdist'
+runs:
+  using: 'docker'
+  image: 'docker://sunx2ych/github-action-python-dist-upload:1.0.0'
