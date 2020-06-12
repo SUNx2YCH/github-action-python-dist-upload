@@ -11,4 +11,4 @@ inputs:
     default: 'sdist'
 runs:
   using: 'docker'
-  image: 'docker://sunx2ych/github-action-python-dist-upload:1.0.1'
+  image: 'docker://sunx2ych/github-action-python-dist-upload:1.0.2'
